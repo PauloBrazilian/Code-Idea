@@ -468,10 +468,6 @@ function dono1(){
 
       
     }
-    
-    
-
-
     else {
       
     }
