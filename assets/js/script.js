@@ -27,154 +27,154 @@ btnMobile.addEventListener('touchstart', toggleMenu)
 // lamp Animation
 function acende() {
 
-    if (window.innerWidth <= 1400){
+    if (window.screen.width <= 1400){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-251px) translateX(-28px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(224px) translateX(28px)";
         document.getElementById('cir').style.boxShadow = "0 0 50px rgb(45, 178, 197)";
     }
-    if (screen.width <= 535){
+    if (window.screen.width <= 535){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-204px) translateX(-28px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(173px) translateX(28px)";
     }
-    if (screen.width <= 509){
+    if (window.screen.width <= 509){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-202px) translateX(-28px)";
     }
-    if (screen.width <= 485){
+    if (window.screen.width <= 485){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-200px) translateX(-28px)";
     }
-    if (screen.width <= 447){
+    if (window.screen.width <= 447){
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(171px) translateX(28px)";
     }
-    if (screen.width <= 439){
+    if (window.screen.width <= 439){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-151px) translateX(-20px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(123px) translateX(23px)";
     }
-    if (screen.width <= 425){
+    if (window.screen.width <= 425){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-150px) translateX(-20px)";
     }
-    if (screen.width <= 405){
+    if (window.screen.width <= 405){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-174px) translateX(-18px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(154px) translateX(18px)";
     }
-    if (screen.width <= 402){
+    if (window.screen.width <= 402){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-172px) translateX(-18px)";
     }
-    if (screen.width <= 400){
+    if (window.screen.width <= 400){
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(152px) translateX(18px)";
     }
-    if (screen.width <= 397){
+    if (window.screen.width <= 397){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-171px) translateX(-18px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(151px) translateX(18px)";
     }
-    if (screen.width <= 395){
+    if (window.screen.width <= 395){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-169px) translateX(-18px)";
     }
-    if (screen.width <= 392){
+    if (window.screen.width <= 392){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-167px) translateX(-17px)";
     }
-    if (screen.width <= 389){
+    if (window.screen.width <= 389){
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(148px) translateX(18px)";
     }
-    if (screen.width <= 386){
+    if (window.screen.width <= 386){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-166px) translateX(-17px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(147px) translateX(18px)";
     }
-    if (screen.width <= 383){
+    if (window.screen.width <= 383){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-164px) translateX(-17px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(146px) translateX(17px)";
     }
-    if (screen.width <= 379){
+    if (window.screen.width <= 379){
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(144px) translateX(17px)";
     }
-    if (screen.width <= 377){
+    if (window.screen.width <= 377){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-163px) translateX(-17px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(143px) translateX(17px)";
     }
-    if (screen.width <= 375){
+    if (window.screen.width <= 375){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-162px) translateX(-17px)";
     }
-    if (screen.width <= 373){
+    if (window.screen.width <= 373){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-160px) translateX(-17px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(143px) translateX(17px)";
     }
-    if (screen.width <= 372){
+    if (window.screen.width <= 372){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-160px) translateX(-17px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(142px) translateX(17px)";
     }
-    if (screen.width <= 371){
+    if (window.screen.width <= 371){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-160px) translateX(-17px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(141px) translateX(17px)";
     }
-    if (screen.width <= 370){
+    if (window.screen.width <= 370){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-160px) translateX(-17px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(140px) translateX(17px)";
     }
-    if (screen.width <= 368){
+    if (window.screen.width <= 368){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-158px) translateX(-16px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(141px) translateX(16px)";
     }
-    if (screen.width <= 367){
+    if (window.screen.width <= 367){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-158px) translateX(-16px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(140px) translateX(16px)";
     }
-    if (screen.width <= 364){
+    if (window.screen.width <= 364){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-158px) translateX(-16px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(141px) translateX(16px)";
     }
-    if (screen.width <= 362){
+    if (window.screen.width <= 362){
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(137px) translateX(16px)";
     }
-    if (screen.width <= 360){
+    if (window.screen.width <= 360){
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(137px) translateX(16px)";
     }
-    if (screen.width <= 356){
+    if (window.screen.width <= 356){
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(138px) translateX(16px)";
     }
-    if (screen.width <= 355){
+    if (window.screen.width <= 355){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-157px) translateX(-16px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(138px) translateX(16px)";
     }
-    if (screen.width <= 343){
+    if (window.screen.width <= 343){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-128px) translateX(-13px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(111px) translateX(14px)";
     }
-    if (screen.width <= 333){
+    if (window.screen.width <= 333){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-127px) translateX(-14px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(111px) translateX(13px)";
     }
-    if (screen.width <= 305){
+    if (window.screen.width <= 305){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-126px) translateX(-14px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(111px) translateX(13px)";
     }
-    if (screen.width <= 299){
+    if (window.screen.width <= 299){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-126px) translateX(-14px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(110px) translateX(13px)";
     }
-    if (screen.width <= 271){
+    if (window.screen.width <= 271){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(69px) translateX(13px)";
     }
-    if (screen.width <= 270){
+    if (window.screen.width <= 270){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(70px) translateX(13px)";
     }
-    if (screen.width <= 262){
+    if (window.screen.width <= 262){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(68px) translateX(13px)";
     }
-    if (screen.width <= 261){
+    if (window.screen.width <= 261){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(69px) translateX(13px)";
     }
-    if (screen.width <= 235){
+    if (window.screen.width <= 235){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(67px) translateX(13px)";
     }
-    if (screen.width <= 234){
+    if (window.screen.width <= 234){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(68px) translateX(13px)";
     }
-    if (screen.width <= 200){
+    if (window.screen.width <= 200){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(66px) translateX(13px)";
     }
