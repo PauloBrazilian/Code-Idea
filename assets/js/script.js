@@ -174,34 +174,10 @@ function acende() {
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(68px) translateX(13px)";
     }
-    
-        
-
-
-
-
-
-
-  
-    
-   
-
-
-
-
-
     if (screen.width <= 200){
         document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
         document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(66px) translateX(13px)";
     }
-
-
-
-
-    
-    
-
-
     else {
         
     }
