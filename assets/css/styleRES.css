@@ -1342,23 +1342,62 @@
     /* Part1 */
         /* Lamp */
     #ladoesquerdo {
-        font-size: 85px;
+        font-size: 70px;
         left: 0;
-    }           
+    }   
+
+    #barra {
+        font-size: 5vw;
+    }
+    
+    #ladodireito {
+        font-size: 70px;
+        right: 0;
+    }
+
+    /* Part2 */
+        /* carrossel */
+    .car img {
+        left: -1rem;
+    }    
 }
 
-/* 320 */
-@media (max-width : 320px){
-    /* Part1 */
-        /* Lamp */
-    #ladoesquerdo {
-        font-size: 86px;
-        left: 0;
+/* 333 */
+@media (max-width : 333px){
+    /* Header */
+    #logo{
+        font-size: 0rem;
     }
 }
 
+/* 326 */
+@media (max-width : 326px){
+    /* Part2 */
+        /* carrossel */
+    .car img {
+        left: -2rem;
+    }    
+}
 
+/* 271 */
+@media (max-width : 271px){
+    /* Part1 */
+        /* Lamp */
+    #barra {
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+}
 
+/* 226 */
+@media (max-width : 227px){
+    /* Part2 */
+        /* carrossel */
+    .car img{
+        padding: 5rem;
+        left: -3rem;
+    }    
+}
 
 
 
