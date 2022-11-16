@@ -2,11 +2,12 @@
 const mudaData = document.querySelector('#span')
 const data = new Date()
 const puxaData = data.getFullYear()
-//mudaData.innerHTML = puxaData
-/*/*Fim - Muda a data da do "id="span""" dentro do "id="direitos-reservados"" que está dentro do "Footer" */
+    //mudaData.innerHTML = puxaData
+    /*/*Fim - Muda a data da do "id="span""" dentro do "id="direitos-reservados"" que está dentro do "Footer" */
 
 /*Início Menu Responsivo*/
 const btnMobile = document.getElementById('btn-mobile')
+
 function toggleMenu(event) {
     if (event.type === 'touchstart') event.preventDefault()
     const nav = document.getElementById('nav')
@@ -25,163 +26,16 @@ btnMobile.addEventListener('touchstart', toggleMenu)
 
 
 // lamp Animation
-function acende() {
 
-    if (window.screen.width <= 1400){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-251px) translateX(-28px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(224px) translateX(28px)";
-        document.getElementById('cir').style.boxShadow = "0 0 50px rgb(45, 178, 197)";
-    }
-    if (window.screen.width <= 535){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-204px) translateX(-28px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(173px) translateX(28px)";
-    }
-    if (window.screen.width <= 509){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-202px) translateX(-28px)";
-    }
-    if (window.screen.width <= 485){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-200px) translateX(-28px)";
-    }
-    if (window.screen.width <= 447){
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(171px) translateX(28px)";
-    }
-    if (window.screen.width <= 439){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-151px) translateX(-20px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(123px) translateX(23px)";
-    }
-    if (window.screen.width <= 425){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-150px) translateX(-20px)";
-    }
-    if (window.screen.width <= 405){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-174px) translateX(-18px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(154px) translateX(18px)";
-    }
-    if (window.screen.width <= 402){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-172px) translateX(-18px)";
-    }
-    if (window.screen.width <= 400){
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(152px) translateX(18px)";
-    }
-    if (window.screen.width <= 397){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-171px) translateX(-18px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(151px) translateX(18px)";
-    }
-    if (window.screen.width <= 395){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-169px) translateX(-18px)";
-    }
-    if (window.screen.width <= 392){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-167px) translateX(-17px)";
-    }
-    if (window.screen.width <= 389){
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(148px) translateX(18px)";
-    }
-    if (window.screen.width <= 386){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-166px) translateX(-17px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(147px) translateX(18px)";
-    }
-    if (window.screen.width <= 383){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-164px) translateX(-17px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(146px) translateX(17px)";
-    }
-    if (window.screen.width <= 379){
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(144px) translateX(17px)";
-    }
-    if (window.screen.width <= 377){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-163px) translateX(-17px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(143px) translateX(17px)";
-    }
-    if (window.screen.width <= 375){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-162px) translateX(-17px)";
-    }
-    if (window.screen.width <= 373){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-160px) translateX(-17px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(143px) translateX(17px)";
-    }
-    if (window.screen.width <= 372){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-160px) translateX(-17px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(142px) translateX(17px)";
-    }
-    if (window.screen.width <= 371){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-160px) translateX(-17px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(141px) translateX(17px)";
-    }
-    if (window.screen.width <= 370){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-160px) translateX(-17px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(140px) translateX(17px)";
-    }
-    if (window.screen.width <= 368){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-158px) translateX(-16px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(141px) translateX(16px)";
-    }
-    if (window.screen.width <= 367){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-158px) translateX(-16px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(140px) translateX(16px)";
-    }
-    if (window.screen.width <= 364){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-158px) translateX(-16px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(141px) translateX(16px)";
-    }
-    if (window.screen.width <= 362){
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(137px) translateX(16px)";
-    }
-    if (window.screen.width <= 360){
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(137px) translateX(16px)";
-    }
-    if (window.screen.width <= 356){
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(138px) translateX(16px)";
-    }
-    if (window.screen.width <= 355){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-157px) translateX(-16px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(138px) translateX(16px)";
-    }
-    if (window.screen.width <= 343){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-128px) translateX(-13px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(111px) translateX(14px)";
-    }
-    if (window.screen.width <= 333){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-127px) translateX(-14px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(111px) translateX(13px)";
-    }
-    if (window.screen.width <= 305){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-126px) translateX(-14px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(111px) translateX(13px)";
-    }
-    if (window.screen.width <= 299){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-126px) translateX(-14px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(110px) translateX(13px)";
-    }
-    if (window.screen.width <= 271){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(69px) translateX(13px)";
-    }
-    if (window.screen.width <= 270){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(70px) translateX(13px)";
-    }
-    if (window.screen.width <= 262){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(68px) translateX(13px)";
-    }
-    if (window.screen.width <= 261){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(69px) translateX(13px)";
-    }
-    if (window.screen.width <= 235){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(67px) translateX(13px)";
-    }
-    if (window.screen.width <= 234){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(68px) translateX(13px)";
-    }
-    if (window.screen.width <= 200){
-        document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-85px) translateX(-14px)";
-        document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(66px) translateX(13px)";
-    }
-    else {
-        
-    }
-   
+var metade = document.querySelector('#cir').clientWidth / 4;
+
+
+//console.log(metade)
+
+function acende() {
+    document.getElementById('ladoesquerdo').style.transform = "rotate(90deg) translateY(-" + metade + "px) translateX(-2.3rem)";
+    document.getElementById('ladodireito').style.transform = "rotate(90deg) translateY(" + metade + "px) translateX(2.3rem)";
+    document.getElementById('cir').style.boxShadow = "0 0 50px rgb(45, 178, 197)";
 }
 
 function apaga() {
@@ -205,9 +59,9 @@ var teste = document.getElementById("acompanha");
 var teste2 = document.getElementById("acompanha2");
 var teste3 = document.getElementById("acompanha3");
 
-function dono1(){
+function dono1() {
 
-    if ( window.innerWidth <= 1400  ) {
+    if (window.innerWidth <= 1400) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -238,7 +92,7 @@ function dono1(){
         const char = text.split("g");
         LoopText(el, text, 100)
     }
-    if ( window.innerWidth <= 1000  ) {
+    if (window.innerWidth <= 1000) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -270,19 +124,19 @@ function dono1(){
         LoopText(el, text, 100)*/
 
     }
-    if ( window.innerWidth <= 971  ) {
+    if (window.innerWidth <= 971) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
         teste3.style.opacity = "0";
         teste3.style.width = "0";
         teste3.style.height = "0";
-    
+
 
         teste.style.width = "408px";
         teste.style.height = "408px";
-        teste.style.margin = "10%" ;
-        teste.style.marginTop = "20%" ;
+        teste.style.margin = "10%";
+        teste.style.marginTop = "20%";
         document.getElementById('arthur').style.width = "400px";
         document.getElementById('arthur').style.height = "400px";
 
@@ -301,9 +155,9 @@ function dono1(){
         const interval = 200;
         const char = text.split("g");
         LoopText(el, text, 100)*/
-      
+
     }
-    if ( window.innerWidth <= 935  ) {
+    if (window.innerWidth <= 935) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -335,9 +189,9 @@ function dono1(){
         const interval = 200;
         const char = text.split("g");
         LoopText(el, text, 100)*/
-        
+
     }
-    if ( window.innerWidth <= 835  ) {
+    if (window.innerWidth <= 835) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -367,9 +221,9 @@ function dono1(){
         const interval = 200;
         const char = text.split("g");
         LoopText(el, text, 100)*/
-       
+
     }
-    if ( window.innerWidth <= 817  ) {
+    if (window.innerWidth <= 817) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -398,9 +252,9 @@ function dono1(){
         const interval = 200;
         const char = text.split("g");
         LoopText(el, text, 100)*/
-      
+
     }
-    if ( window.innerWidth <= 703  ){
+    if (window.innerWidth <= 703) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -415,9 +269,9 @@ function dono1(){
         document.getElementById('arthur').style.width = "316px";
         document.getElementById('arthur').style.height = "292px";
 
-       
+
     }
-    if ( window.innerWidth <= 650  ){
+    if (window.innerWidth <= 650) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -432,9 +286,9 @@ function dono1(){
         document.getElementById('arthur').style.width = "255px";
         document.getElementById('arthur').style.height = "250px";
 
-       
+
     }
-    if ( window.innerWidth <= 509  ){
+    if (window.innerWidth <= 509) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -449,9 +303,9 @@ function dono1(){
         document.getElementById('arthur').style.width = "213px";
         document.getElementById('arthur').style.height = "209px";
 
-    
+
     }
-    if ( window.innerWidth <= 378  ){
+    if (window.innerWidth <= 378) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -466,13 +320,29 @@ function dono1(){
         document.getElementById('arthur').style.width = "162px";
         document.getElementById('arthur').style.height = "181px";
 
-      
+
+    }
+    if (window.innerWidth <= 300) {
+        teste2.style.opacity = "0";
+        teste2.style.width = "0";
+        teste2.style.height = "0";
+        teste3.style.opacity = "0";
+        teste3.style.width = "0";
+        teste3.style.height = "0";
+
+        teste.style.width = "120px";
+        teste.style.height = "136px";
+        teste.style.marginLeft = "-10%";
+        teste.style.marginTop = "20%";
+        document.getElementById('arthur').style.width = "111px";
+        document.getElementById('arthur').style.height = "126px";
+
     }
     else {
-      
+        console.log("nada")
     }
 
-    
+
 
     teste.alt = altText;
     teste2.alt = altText;
@@ -480,7 +350,7 @@ function dono1(){
 
     return teste;
 
-    
+
 }
 
 function LoopText(el, text, interval) {
@@ -503,12 +373,12 @@ function LoopText(el, text, interval) {
     }, interval);
 
 }
-  
+
 
 
 function saidad1() {
 
-    if ( window.innerWidth <= 1400){
+    if (window.innerWidth <= 1400) {
         teste2.style.opacity = "1";
         teste2.style.margin = "30px"
         teste2.style.width = "273px";
@@ -539,7 +409,7 @@ function saidad1() {
         para.id = 'txtfinal';
         document.getElementById('text').appendChild(para);
     }
-    if ( window.innerWidth <= 1000){
+    if (window.innerWidth <= 1000) {
         teste2.style.opacity = "1";
         teste2.style.margin = "30px"
         teste2.style.width = "273px";
@@ -570,7 +440,7 @@ function saidad1() {
         para.id = 'txtfinal';
         document.getElementById('text').appendChild(para);*/
     }
-    if ( window.innerWidth <= 971){
+    if (window.innerWidth <= 971) {
         teste2.style.opacity = "1";
         teste2.style.margin = "20px"
         teste2.style.width = "250px";
@@ -601,7 +471,7 @@ function saidad1() {
         para.id = 'txtfinal';
         document.getElementById('text').appendChild(para);*/
     }
-    if ( window.innerWidth <= 871){
+    if (window.innerWidth <= 871) {
         teste2.style.opacity = "1";
         teste2.style.margin = "20px"
         teste2.style.width = "229px";
@@ -623,7 +493,7 @@ function saidad1() {
         document.getElementById('arthur').style.width = "207px";
         document.getElementById('arthur').style.height = "210px";
     }
-    if ( window.innerWidth <= 817){
+    if (window.innerWidth <= 817) {
         teste2.style.opacity = "1";
         teste2.style.margin = "20px"
         teste2.style.width = "211px";
@@ -645,7 +515,7 @@ function saidad1() {
         document.getElementById('arthur').style.width = "189px";
         document.getElementById('arthur').style.height = "182px";
     }
-    if ( window.innerWidth <= 703){
+    if (window.innerWidth <= 703) {
         teste2.style.opacity = "1";
         teste2.style.margin = "20px"
         teste2.style.width = "176px";
@@ -667,7 +537,7 @@ function saidad1() {
         document.getElementById('arthur').style.width = "155px";
         document.getElementById('arthur').style.height = "155px";
     }
-    if ( window.innerWidth <= 535){
+    if (window.innerWidth <= 535) {
         teste2.style.opacity = "1";
         teste2.style.margin = "10px"
         teste2.style.width = "176px";
@@ -689,7 +559,7 @@ function saidad1() {
         document.getElementById('arthur').style.width = "155px";
         document.getElementById('arthur').style.height = "155px";
     }
-    if ( window.innerWidth <= 509){
+    if (window.innerWidth <= 509) {
         teste2.style.opacity = "1";
         teste2.style.margin = "10px"
         teste2.style.width = "142px";
@@ -711,7 +581,7 @@ function saidad1() {
         document.getElementById('arthur').style.width = "122px";
         document.getElementById('arthur').style.height = "122px";
     }
-    if ( window.innerWidth <= 435){
+    if (window.innerWidth <= 435) {
         teste2.style.opacity = "1";
         teste2.style.margin = "10px"
         teste2.style.width = "120px";
@@ -732,12 +602,8 @@ function saidad1() {
         teste.style.margin = "10px";
         document.getElementById('arthur').style.width = "100px";
         document.getElementById('arthur').style.height = "100px";
-    }
-
-    
-
-    else {
-       
+    } else {
+        console.log("nada")
     }
 
     teste.alt = altText;
@@ -745,12 +611,12 @@ function saidad1() {
     test3.alt = altText;
 
     return teste;
-    
+
 }
 
 function dono2() {
 
-    if ( window.innerWidth <= 1400  ) {
+    if (window.innerWidth <= 1400) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -769,21 +635,21 @@ function dono2() {
 
         var bye = document.querySelector('#txtfinal');
         bye.remove();
-    
-    
+
+
         const para = document.createElement("p");
         para.id = 'felipeDes';
         document.getElementById('text').appendChild(para);
-    
+
         const el = document.getElementById('felipeDes');
         const text = ". Felipe { g Desenvolvedor Front End ; g Gosta do time Corinthians ; g  }";
-    
+
         const interval = 200;
         const char = text.split("g");
         LoopText(el, text, 100)
-      
+
     }
-    if ( window.innerWidth <= 1000  ) {
+    if (window.innerWidth <= 1000) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -798,27 +664,27 @@ function dono2() {
         document.getElementById('felipe').style.width = "490px";
         document.getElementById('felipe').style.height = "490px";
 
-       
+
     }
-    if ( window.innerWidth <= 971  ) {
+    if (window.innerWidth <= 971) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
         teste3.style.opacity = "0";
         teste3.style.width = "0";
         teste3.style.height = "0";
-    
+
 
         teste2.style.width = "408px";
         teste2.style.height = "408px";
-        teste2.style.margin = "10%" ;
-        teste2.style.marginTop = "20%" ;
+        teste2.style.margin = "10%";
+        teste2.style.marginTop = "20%";
         document.getElementById('felipe').style.width = "400px";
         document.getElementById('felipe').style.height = "400px";
 
-       
+
     }
-    if ( window.innerWidth <= 935  ) {
+    if (window.innerWidth <= 935) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -834,7 +700,7 @@ function dono2() {
         document.getElementById('arthur').style.height = "390px";
 
     }
-    if ( window.innerWidth <= 835  ) {
+    if (window.innerWidth <= 835) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -849,9 +715,9 @@ function dono2() {
         document.getElementById('felipe').style.width = "390px";
         document.getElementById('felipe').style.height = "390px";
 
-        
+
     }
-    if ( window.innerWidth <= 817  ) {
+    if (window.innerWidth <= 817) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -867,7 +733,7 @@ function dono2() {
         document.getElementById('felipe').style.height = "334px";
 
     }
-    if ( window.innerWidth <= 703  ){
+    if (window.innerWidth <= 703) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -883,7 +749,7 @@ function dono2() {
         document.getElementById('felipe').style.height = "292px";
 
     }
-    if ( window.innerWidth <= 650  ){
+    if (window.innerWidth <= 650) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -903,7 +769,7 @@ function dono2() {
         document.getElementById('felipe').style.height = "250px";
 
     }
-    if ( window.innerWidth <= 509 ){
+    if (window.innerWidth <= 509) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -922,9 +788,9 @@ function dono2() {
         document.getElementById('felipe').style.width = "213px";
         document.getElementById('felipe').style.height = "209px";
 
-       
+
     }
-    if ( window.innerWidth <= 378 ){
+    if (window.innerWidth <= 378) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -944,15 +810,34 @@ function dono2() {
         document.getElementById('felipe').style.width = "162px";
         document.getElementById('felipe').style.height = "181px";
 
-        
+
+    }
+    if (window.innerWidth <= 300) {
+        teste.style.opacity = "0";
+        teste.style.width = "0";
+        teste.style.height = "0";
+        document.getElementById('arthur').style.width = "0";
+        document.getElementById('arthur').style.height = "0";
+
+        teste3.style.opacity = "0";
+        teste3.style.width = "0";
+        teste3.style.height = "0";
+
+        teste2.style.width = "120px";
+        teste2.style.height = "136px";
+        teste2.style.margin = "10%";
+        teste2.style.marginTop = "10%";
+        teste2.style.marginBottom = "20%";
+        teste2.style.marginLeft = "-10%";
+        document.getElementById('felipe').style.width = "111px";
+        document.getElementById('felipe').style.height = "126px";
+
+
+    } else {
+        console.log("nada")
     }
 
 
-    else {
-        
-    }
-
-    
 
     teste.alt = altText;
     teste2.alt = altText;
@@ -1019,7 +904,7 @@ function LoopText(el, text, interval) {
 
 function saidad2() {
 
-    if ( window.innerWidth <= 1400){
+    if (window.innerWidth <= 1400) {
         teste.style.opacity = "1";
         teste.style.margin = "30px"
         teste.style.width = "273px";
@@ -1050,7 +935,7 @@ function saidad2() {
         para.id = 'txtfinal';
         document.getElementById('text').appendChild(para);
     }
-    if ( window.innerWidth <= 1000){
+    if (window.innerWidth <= 1000) {
         teste.style.opacity = "1";
         teste.style.margin = "30px"
         teste.style.width = "273px";
@@ -1081,7 +966,7 @@ function saidad2() {
         para.id = 'txtfinal';
         document.getElementById('text').appendChild(para);*/
     }
-    if ( window.innerWidth <= 971){
+    if (window.innerWidth <= 971) {
         teste.style.opacity = "1";
         teste.style.margin = "20px"
         teste.style.width = "250px";
@@ -1112,7 +997,7 @@ function saidad2() {
         para.id = 'txtfinal';
         document.getElementById('text').appendChild(para);*/
     }
-    if ( window.innerWidth <= 871){
+    if (window.innerWidth <= 871) {
         teste.style.opacity = "1";
         teste.style.margin = "20px"
         teste.style.width = "229px";
@@ -1134,7 +1019,7 @@ function saidad2() {
         document.getElementById('felipe').style.width = "207px";
         document.getElementById('felipe').style.height = "210px";
     }
-    if ( window.innerWidth <= 817){
+    if (window.innerWidth <= 817) {
         teste.style.opacity = "1";
         teste.style.margin = "20px"
         teste.style.width = "211px";
@@ -1156,7 +1041,7 @@ function saidad2() {
         document.getElementById('felipe').style.width = "189px";
         document.getElementById('felipe').style.height = "182px";
     }
-    if ( window.innerWidth <= 703){
+    if (window.innerWidth <= 703) {
         teste.style.opacity = "1";
         teste.style.margin = "20px"
         teste.style.width = "176px";
@@ -1178,7 +1063,7 @@ function saidad2() {
         document.getElementById('felipe').style.width = "155px";
         document.getElementById('felipe').style.height = "155px";
     }
-    if ( window.innerWidth <= 535){
+    if (window.innerWidth <= 535) {
         teste.style.opacity = "1";
         teste.style.margin = "10px"
         teste.style.width = "176px";
@@ -1200,7 +1085,7 @@ function saidad2() {
         document.getElementById('felipe').style.width = "155px";
         document.getElementById('felipe').style.height = "155px";
     }
-    if ( window.innerWidth <= 509){
+    if (window.innerWidth <= 509) {
         teste.style.opacity = "1";
         teste.style.margin = "10px"
         teste.style.width = "142px";
@@ -1222,7 +1107,7 @@ function saidad2() {
         document.getElementById('felipe').style.width = "122px";
         document.getElementById('felipe').style.height = "122px";
     }
-    if ( window.innerWidth <= 435){
+    if (window.innerWidth <= 435) {
         teste.style.opacity = "1";
         teste.style.margin = "10px"
         teste.style.width = "120px";
@@ -1242,11 +1127,8 @@ function saidad2() {
         teste2.style.marginBottom = "0"
         document.getElementById('felipe').style.width = "100px";
         document.getElementById('felipe').style.height = "100px";
-    }
-
-
-    else {
-        
+    } else {
+        console.log("nada")
     }
 
     teste.alt = altText;
@@ -1256,7 +1138,7 @@ function saidad2() {
     return teste;
 
 
-    
+
     /*teste.style.opacity = "1";
     teste.style.margin = "40px"
     teste.style.width = "300px";
@@ -1284,7 +1166,7 @@ function saidad2() {
 
 function dono3() {
 
-    if ( window.innerWidth <= 1400  ) {
+    if (window.innerWidth <= 1400) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -1303,8 +1185,8 @@ function dono3() {
 
         var bye = document.querySelector('#txtfinal');
         bye.remove();
-    
-    
+
+
         const para = document.createElement("p");
         para.id = 'pauloDes';
         document.getElementById('text').appendChild(para);
@@ -1316,7 +1198,7 @@ function dono3() {
         const char = text.split("g");
         LoopText(el, text, 100)
     }
-    if ( window.innerWidth <= 1000  ) {
+    if (window.innerWidth <= 1000) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -1332,24 +1214,24 @@ function dono3() {
         document.getElementById('paulo').style.height = "490px";
 
     }
-    if ( window.innerWidth <= 971  ) {
+    if (window.innerWidth <= 971) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
         teste2.style.opacity = "0";
         teste3.style.width = "0";
         teste2.style.height = "0";
-    
+
 
         teste3.style.width = "408px";
         teste3.style.height = "408px";
-        teste3.style.margin = "10%" ;
-        teste2.style.marginTop = "20%" ;
+        teste3.style.margin = "10%";
+        teste2.style.marginTop = "20%";
         document.getElementById('paulo').style.width = "400px";
         document.getElementById('paulo').style.height = "400px";
 
     }
-    if ( window.innerWidth <= 935  ) {
+    if (window.innerWidth <= 935) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -1365,7 +1247,7 @@ function dono3() {
         document.getElementById('paulo').style.height = "390px";
 
     }
-    if ( window.innerWidth <= 835  ) {
+    if (window.innerWidth <= 835) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -1381,7 +1263,7 @@ function dono3() {
         document.getElementById('paulo').style.height = "390px";
 
     }
-    if ( window.innerWidth <= 817  ) {
+    if (window.innerWidth <= 817) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -1397,7 +1279,7 @@ function dono3() {
         document.getElementById('paulo').style.height = "334px";
 
     }
-    if ( window.innerWidth <= 703  ){
+    if (window.innerWidth <= 703) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -1414,7 +1296,7 @@ function dono3() {
         document.getElementById('paulo').style.height = "292px";
 
     }
-    if ( window.innerWidth <= 650  ){
+    if (window.innerWidth <= 650) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -1431,7 +1313,7 @@ function dono3() {
         document.getElementById('paulo').style.height = "250px";
 
     }
-    if ( window.innerWidth <= 509  ){
+    if (window.innerWidth <= 509) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -1448,7 +1330,7 @@ function dono3() {
         document.getElementById('paulo').style.height = "209px";
 
     }
-    if ( window.innerWidth <= 378  ){
+    if (window.innerWidth <= 378) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -1465,21 +1347,34 @@ function dono3() {
         document.getElementById('paulo').style.height = "181px";
 
     }
-    
+    if (window.innerWidth <= 300) {
+        teste2.style.opacity = "0";
+        teste2.style.width = "0";
+        teste2.style.height = "0";
+        teste.style.opacity = "0";
+        teste.style.width = "0";
+        teste.style.height = "0";
 
+        teste3.style.width = "120px";
+        teste3.style.height = "136px";
+        teste3.style.marginBottom = "10%";
+        teste3.style.marginLeft = "-10%";
+        teste3.style.marginTop = "-20%";
+        document.getElementById('paulo').style.width = "111px";
+        document.getElementById('paulo').style.height = "126px";
 
-    else {
-       
+    } else {
+        console.log("nada")
     }
 
-    
+
 
     teste.alt = altText;
     teste2.alt = altText;
     test3.alt = altText;
 
     return teste;
-    
+
     /*teste2.style.opacity = "0";
     teste2.style.width = "0";
     teste2.style.height = "0";
@@ -1533,7 +1428,7 @@ function LoopText(el, text, interval) {
 
 function saidad3() {
 
-    if ( window.innerWidth <= 1400){
+    if (window.innerWidth <= 1400) {
         teste.style.opacity = "1";
         teste.style.margin = "30px"
         teste.style.width = "273px";
@@ -1564,7 +1459,7 @@ function saidad3() {
         para.id = 'txtfinal';
         document.getElementById('text').appendChild(para);
     }
-    if ( window.innerWidth <= 1000){
+    if (window.innerWidth <= 1000) {
         teste.style.opacity = "1";
         teste.style.margin = "30px"
         teste.style.width = "273px";
@@ -1587,7 +1482,7 @@ function saidad3() {
         document.getElementById('paulo').style.height = "277px";
 
     }
-    if ( window.innerWidth <= 971){
+    if (window.innerWidth <= 971) {
         teste.style.opacity = "1";
         teste.style.margin = "20px"
         teste.style.width = "250px";
@@ -1610,7 +1505,7 @@ function saidad3() {
         document.getElementById('paulo').style.height = "244px";
 
     }
-    if ( window.innerWidth <= 871){
+    if (window.innerWidth <= 871) {
         teste.style.opacity = "1";
         teste.style.margin = "20px"
         teste.style.width = "229px";
@@ -1632,7 +1527,7 @@ function saidad3() {
         document.getElementById('paulo').style.width = "207px";
         document.getElementById('paulo').style.height = "210px";
     }
-    if ( window.innerWidth <= 817){
+    if (window.innerWidth <= 817) {
         teste.style.opacity = "1";
         teste.style.margin = "20px"
         teste.style.width = "211px";
@@ -1654,7 +1549,7 @@ function saidad3() {
         document.getElementById('paulo').style.width = "189px";
         document.getElementById('paulo').style.height = "182px";
     }
-    if ( window.innerWidth <= 703){
+    if (window.innerWidth <= 703) {
         teste.style.opacity = "1";
         teste.style.margin = "20px"
         teste.style.width = "176px";
@@ -1676,7 +1571,7 @@ function saidad3() {
         document.getElementById('paulo').style.width = "155px";
         document.getElementById('paulo').style.height = "155px";
     }
-    if ( window.innerWidth <= 535){
+    if (window.innerWidth <= 535) {
         teste.style.opacity = "1";
         teste.style.margin = "10px"
         teste.style.width = "176px";
@@ -1698,7 +1593,7 @@ function saidad3() {
         document.getElementById('paulo').style.width = "155px";
         document.getElementById('paulo').style.height = "155px";
     }
-    if ( window.innerWidth <= 509){
+    if (window.innerWidth <= 509) {
         teste.style.opacity = "1";
         teste.style.margin = "10px"
         teste.style.width = "142px";
@@ -1720,7 +1615,7 @@ function saidad3() {
         document.getElementById('paulo').style.width = "122px";
         document.getElementById('paulo').style.height = "122px";
     }
-    if ( window.innerWidth <= 435){
+    if (window.innerWidth <= 435) {
         teste.style.opacity = "1";
         teste.style.margin = "10px"
         teste.style.width = "120px";
@@ -1742,14 +1637,10 @@ function saidad3() {
         document.getElementById('paulo').style.width = "100px";
         document.getElementById('paulo').style.height = "100px";
     }
-    if ( window.innerWidth <= 378){
+    if (window.innerWidth <= 378) {
         teste3.style.marginTop = "20%";
-    }
-
-
-
-    else {
-        
+    } else {
+        console.log("nada")
     }
 
     teste.alt = altText;
@@ -1817,19 +1708,3 @@ function Res1320() {
         document.getElementById('ladoesquerdo').style.transform = "rotate(0) translateY(0) translateX(0)";
     }
 }*/
-
-
-/* 
-const queryToMatch = '';
-const [matches, setMatches] = useState(window.matchMedia(queryToMatch).matches);
-
-useEffect(() => {
-  const media = window.matchMedia(queryToMatch);
-  // If there is a change update the match
-  if (media.matches !== matches) setMatches(media.matches);
-  // Add the listener to update the state
-  const listener = () => setMatches(media.matches);
-  media.addEventListener('change', listener);
-  return () => media.addEventListener('change', listener);
-}, [matches, queryToMatch]);
-*/
