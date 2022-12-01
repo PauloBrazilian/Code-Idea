@@ -801,18 +801,18 @@
     /* Part1 */
     /* Lamp */
     .bordao {
-        top: -1rem;
+        top: -5rem;
         font-size: 13vw;
     }
     #frase {
         font-size: 16px;
-        top: 3rem;
+        top: 5rem;
     }
     #cir {
         left: -2.5rem;
         height: 23rem;
         width: 25rem;
-        top: 12rem;
+        top: 15rem;
     }
 
     /* part3 */
