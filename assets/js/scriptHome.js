@@ -203,7 +203,7 @@ function dono1() {
         document.getElementById('arthur').style.width = "255px";
         document.getElementById('arthur').style.height = "250px";
     }
-    if (window.innerWidth <= 509) {
+    if (window.innerWidth <= 500) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
@@ -696,7 +696,7 @@ function dono2() {
 
 
     }
-    if (window.innerWidth <= 400) {
+    if (window.innerWidth <= 500) {
         teste.style.opacity = "0";
         teste.style.width = "0";
         teste.style.height = "0";
@@ -1181,7 +1181,7 @@ function dono3() {
         document.getElementById('paulo').style.height = "209px";
 
     }
-    if (window.innerWidth <= 400) {
+    if (window.innerWidth <= 500) {
         teste2.style.opacity = "0";
         teste2.style.width = "0";
         teste2.style.height = "0";
