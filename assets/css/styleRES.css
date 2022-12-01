@@ -643,6 +643,21 @@
 
 /* 587 */
 @media (max-width: 587px) {
+    /* Part1 */
+    /* Lamp */
+    .bordao {
+        top: -5rem;
+        font-size: 13vw;
+    }
+    #frase {
+        font-size: 16px;
+        top: 5rem;
+    }
+    #cir {
+        left: -2.5rem;
+        top: 15rem;
+    }
+
     /* Part2 */
     /* Carrossel */
     .part2 h1 {
@@ -681,17 +696,17 @@
     /* Part1 */
     /* lamp */
     .bordao {
-        top: 2rem;
+   
         font-size: 9vw;
     }
     #frase {
         font-size: 10px;
-        top: 3rem;
+        
     }
     #cir {
         height: 23rem;
         width: 25rem;
-        top: 3rem;
+    
     }
     #tracos {
         display: flex;
